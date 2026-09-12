@@ -21,6 +21,8 @@ public class PackHorse : BaseUnityPlugin
 		packhorse.Description.English("Increases the maximum carry weight.");
 		packhorse.Name.German("Packesel");
 		packhorse.Description.German("Erhöht das maximale Tragegewicht.");
+  		packhorse.Name.Russian("Вьючная Лошадь");
+		packhorse.Description.Russian("Увеличивает максимальный переносимый вес.");
 		packhorse.Configurable = true;
 
 		Assembly assembly = Assembly.GetExecutingAssembly();
